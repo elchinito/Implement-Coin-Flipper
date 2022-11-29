@@ -77,15 +77,9 @@ function clearScore() {
     changeImage.setAttribute("src", "./assets/images/penny-heads.jpg");
 }
 
-
-
-
-
-
 document.querySelector('#flip').addEventListener('click', function() {
     flipCoin();
 })
-
 
 document.querySelector('#clear').addEventListener('click', function(){
     clearScore();
